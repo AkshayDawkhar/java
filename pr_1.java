@@ -18,7 +18,7 @@ public class pr_1 {
         Checkbox ch1=new Checkbox("1",ch,false);
         ch1.setBounds(30,60,50,50);
         Checkbox ch2=new Checkbox("2",ch,false);
-        ch2.setBounds(30,120,50,50);
+        ch2.setBounds(30,ch1.getY()+60,50,50);
         jf.add(ch1);
         jf.add(ch2);
     }
