@@ -16,5 +16,6 @@ public class pr_7_1 {
         JTree jt=new JTree(india);
         f.add(jt);
         f.setSize(200,200);
+
         f.setVisible(true);
     }}
